@@ -1,0 +1,6 @@
+10-31 10:17:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "FIRST_NAME VARCHAR(5) NOT NULL": "'Samuel' (6)"; SQL statement:
+insert into BOOKINGS(FIRST_NAME) values (?) [22001-176]
+10-31 10:18:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "FIRST_NAME VARCHAR(5) NOT NULL": "'Samuel' (6)"; SQL statement:
+insert into BOOKINGS(FIRST_NAME) values (?) [22001-176]
